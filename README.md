@@ -1,1 +1,1 @@
-![intro](./image/result_2.png)
+![intro](./image/result_3.png)
