@@ -1,0 +1,13 @@
+node_modules
+*-error.log
+*.log
+.vscode
+.idea
+.npmrc
+test.js
+dist
+coverage
+packages/*/lib/
+
+/lib/
+/src/

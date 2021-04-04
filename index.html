@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Generate README.md Image</title>
+  <style>
+    @font-face {
+      font-family: 'MyWebFont';
+      src: url('font/Chalet-Book-Italic.ttf')
+      /*src: url('font/CODE Bold.otf')*/
+      /*src: url('font/FuturaLTPro-MediumOblique.otf')*/
+    }
+
+    html, body {
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      position: absolute;
+      width: 825px;
+      height: 322px;
+      background-color: #bae2d0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #7eb09a;
+      overflow: hidden;
+    }
+
+    .bg {
+      position: absolute;
+      top: -362px;
+      right: 14px;
+      width: 1200px;
+      height: 1200px;
+      border-radius: 50%;
+      background-color: #7eb09a;
+      background-color: #f7fcf6;
+    }
+
+    .content {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-left: -70px;
+      font-family: MyWebFont;
+    }
+
+    .title {
+      display: inline-block;
+      font-size: 60px;
+      margin: 0;
+    }
+
+    .avatar-img {
+      height: 200px;
+    }
+
+    .desc {
+      margin-top: 8px;
+      margin-left: 8px;
+    }
+
+    .site {
+      position: absolute;
+      bottom: 24px;
+      right: 32px;
+      font-weight: lighter;
+    }
+  </style>
+</head>
+<body>
+<div class="container">
+  <div class="bg"></div>
+  <div class="content">
+    <img class="avatar-img" src="./avatar.png" alt="">
+    <div class="intro">
+      <h1 class="title">Hi! I'm yxmg.</h1>
+      <div class="desc">A programmer，major in front-end</div>
+    </div>
+  </div>
+  <span class="site">yxmg-github-io.vercel.app</span>
+</div>
+</body>
+</html>
